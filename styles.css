@@ -28,30 +28,25 @@ main {
 .logo-and-burger {
     background-color: yellowgreen;
     width: 15%;
-    height: 100%;
     display: flex;
 }
 
 .join {
     background-color: blueviolet;
     width: 10%;
-    height: 100%;
 }
 
 .links {
     background-color: bisque;
     width: 75%;
-    height: 100%;
 }
 
 .burger {
     background-color: aqua;
-    height: 100%;
     width: 50%;
 }
 
 .logo {
     background-color: brown;
-    height: 100%;
     width: 50%;
 }
