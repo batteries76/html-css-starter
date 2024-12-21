@@ -13,7 +13,8 @@ header {
     background-color: gold;
     height: 60px;
     display: flex;
-    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
 }
 
 span {
@@ -31,14 +32,35 @@ main {
     display: flex;
 }
 
-.join {
-    background-color: blueviolet;
-    width: 10%;
+.search {
+    background-color: darkkhaki;
+    display: flex;
+    /* justify-content: space-around; */
+    /* width: 50%; */
+    align-items: center;
 }
 
-.links {
-    background-color: bisque;
-    width: 75%;
+.search-bar {
+    background-color: green;
+}
+
+.mic {
+    background-color: blueviolet;
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: double;
+}
+
+.personal {
+    background-color: red;
+    margin-right: 15px;
+    padding: 6px 10px;
+    border-radius: 4px;
 }
 
 .burger {
